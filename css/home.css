@@ -13,45 +13,91 @@ h1,h2,h3,h4,h5,h6,p,hr,ul{
 ul {
     padding: 0 !important;
 }
+h6{
+    text-align: center;
+    text-wrap: nowrap;
+    padding-bottom: 10px;
+}
+.hidden {
+    display: none !important;
+}
+.admin {
+    
+    .left {
+       
+        background-color: rgb(235, 59, 117);
+        color: white;
+    
+    .fa-list{
+        position: absolute;
+        top:15px;
+        right: 0;
+        transform: translateX(50%);
+        color: aliceblue;
+    }
+       
+        header {
+            height: 50px;
+            text-wrap: nowrap;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid white;
+        }
+        li {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            &:hover {
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+    .right {
+        background-color: rgb(246, 155, 170);
+        header {
+            height: 50px;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid black;
+        }
+    }
+
+}
 /* tablet tro len  */
 @media screen and (min-width: 768px) {
-    .admin {
-        display: flex;
+   .admin {
+    display: flex;
+    .left {
         height: 100vh;
-        .left {
-            background-color: black;
-            color: white;
-            header {
-                height: 50px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                border-bottom: 1px solid white;
-            }
-            li {
-                display: flex;
-                align-items: center;
-                padding: 10px;
-                &:hover {
-                    background-color: white;
-                    color: black;
-                }
-            }
+        position: relative;
+        .icon{
+            position: absolute;
+            top:15px;
+            right: 0;
+            transform: translateX(50%);
+            color: aliceblue;
+            
         }
-        .right {
-            flex: 1;
-            header {
-                height: 50px;
-                align-items: center;
-                display: flex;
-                justify-content: space-between;
-                border-bottom: 1px solid black;
-            }
-        }
-    } 
+    }
+    .right {
+        flex: 1;
+    }
+   }
 }
 
 /* mobile */
 @media screen and (max-width: 767px) {
-    
+    .left{
+        position: relative;
+        
+        .icon{
+            
+            position: absolute;
+            top:15px;
+            right: 5%;
+        }
+    }
 }
