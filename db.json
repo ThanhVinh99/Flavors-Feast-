@@ -1,0 +1,102 @@
+{
+  "table": [
+    {
+      "id": "1",
+      "nameCustomer": "thanhvinh",
+      "quantity": "1",
+      "status": true
+    },
+    {
+      "id": "2",
+      "nameCustomer": "",
+      "quantity": null,
+      "status": true
+    },
+    {
+      "id": "3",
+      "nameCustomer": "sdvgsg",
+      "quantity": "3",
+      "status": true
+    },
+    {
+      "id": "4",
+      "nameCustomer": "",
+      "quantity": null,
+      "status": false
+    },
+    {
+      "id": "5",
+      "nameCustomer": "",
+      "quantity": null,
+      "status": false
+    },
+    {
+      "id": "6",
+      "nameCustomer": "",
+      "quantity": null,
+      "status": true
+    },
+    {
+      "id": "7",
+      "nameCustomer": "",
+      "quantity": null,
+      "status": false
+    },
+    {
+      "id": "8",
+      "nameCustomer": "",
+      "quantity": null,
+      "status": false
+    }
+  ],
+  "foods": [
+    {
+      "id": 1,
+      "name": "Hamberger",
+      "img": "../img/hamburger.png",
+      "price": "$39"
+    },
+    {
+      "id": 2,
+      "name": "Beefsteak",
+      "img": "../img/meat.png",
+      "price": "$129"
+    },
+    {
+      "id": 3,
+      "name": "Dismum",
+      "img": "../img/dimsum.png",
+      "price": "$79"
+    },
+    {
+      "id": 4,
+      "name": "chiken",
+      "img": "../img/chicken-leg.png",
+      "price": "$119"
+    },
+    {
+      "id": 5,
+      "name": "Pizza",
+      "img": "../img/pizza.png",
+      "price": "$79"
+    },
+    {
+      "id": 6,
+      "name": "Ramen",
+      "img": "../img/ramen.png",
+      "price": "$39"
+    },
+    {
+      "id" : 7,
+      "name" : "Salad",
+      "img" : "../img/salad.png",
+      "price" : "$39"
+    },
+    {
+      "id" : 8,
+      "name" : "Fried rice",
+      "img" : "../img/biryani.png",
+      "price" : "$79"
+    }
+  ]
+}

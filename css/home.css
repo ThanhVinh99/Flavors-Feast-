@@ -3,6 +3,10 @@
     padding:0;
     box-sizing: border-box;
 }
+img{
+    width: 100%;
+    height: 100%;
+}
 li{
     list-style: none;
 }
@@ -21,38 +25,47 @@ h6{
 .hidden {
     display: none !important;
 }
+.box{
+    display: none;
+}
 .admin {
     
     .left {
        
         background-color: rgb(235, 59, 117);
-        color: white;
-    
-    .fa-list{
-        position: absolute;
-        top:15px;
-        right: 0;
-        transform: translateX(50%);
-        color: aliceblue;
+        color: white;  
+        li {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            &:hover {
+                background-color: white;
+                color: black;
+            }
+        } 
     }
        
         header {
             height: 50px;
+            position: relative;
             text-wrap: nowrap;
             display: flex;
             justify-content: center;
             align-items: center;
             border-bottom: 1px solid white;
-        }
-        li {
-            display: flex;
-            align-items: center;
-            padding: 10px;
-            &:hover {
-                background-color: white;
-                color: black;
+            padding: 0 20px;
+            .icon{
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                background-color: black;
+                color: aliceblue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         }
+       
     }
     .right {
         background-color: rgb(246, 155, 170);
@@ -63,19 +76,72 @@ h6{
             justify-content: space-between;
             border-bottom: 1px solid black;
         }
+        .card {
+            .card_img {
+                width: 50%;
+                margin: auto;
+            }
+            span{
+                width: 20px;
+                height: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(235, 59, 117 );
+                color: wheat;
+                border-radius: 50%;
+            }
+        }  
+        .order, .pay{
+            .nav-tabs{
+                border-bottom: none;
+            }
+            .dropdown-toggle  {
+                border: 1px solid black;
+                border-radius: 10px;
+            }
+            .od{
+                background-color:rgb(235, 59, 117 ) ;
+                color: aliceblue;
+                border: 1px solid black;
+                border-radius: 10px;
+            }
+        }
+        .order2{
+            button{
+                width: 30px;
+                height: 30px;
+            }
+            p, .fa-pen-to-square{
+                color:rgb(235, 59, 117 ) ;
+            }
+        }
+    }
+    .table{
+        table{
+            border-collapse: collapse;
+            border-bottom: 1px gray black;
+            width: 100%;
+        }
+        table, td, th{
+            padding: 15px;
+            text-align: center;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+        }
     }
 
-}
 /* tablet tro len  */
 @media screen and (min-width: 768px) {
    .admin {
     display: flex;
     .left {
         height: 100vh;
-        position: relative;
         .icon{
             position: absolute;
-            top:15px;
+        
             right: 0;
             transform: translateX(50%);
             color: aliceblue;
@@ -90,14 +156,11 @@ h6{
 
 /* mobile */
 @media screen and (max-width: 767px) {
-    .left{
-        position: relative;
-        
-        .icon{
-            
-            position: absolute;
-            top:15px;
-            right: 5%;
-        }
+    .icon{
+        position: absolute;
+        right: 10px;
+    }
+    .menu{
+        display: none;
     }
 }
