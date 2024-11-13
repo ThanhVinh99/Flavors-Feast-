@@ -223,6 +223,56 @@
             </div>
         </div>
     </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="cart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">List of ordered dishes</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <td><img src="../img/meat.png" alt=""></td>
+                        <td>Beefsteak</td>
+                        <td>1</td>
+                        <td>$129</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td><img src="../img/dimsum.png" alt=""></td>
+                        <td>Dimsum</td>
+                        <td>2</td>
+                        <td>$79</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <th colspan="4">Total</th>
+                    <th>$208</th>
+                </tfoot>
+            </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Pay Bill</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>

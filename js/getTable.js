@@ -6,7 +6,7 @@ function getAllTable(data) {
     data.forEach(element => {
         const img = element.status ? "../img/img.1.png" : "../img/img.2.png" ;
         const add = element.status ? `<button class="btn btn-success text-nowrap"><i class="fa-solid fa-plus"></i> ADD</button>
-                                         <button class="btn btn-danger text-nowrap"><i class="fa-solid fa-cart-shopping"></i> CART</button>` :
+                                         <button class="btn btn-danger text-nowrap" data-bs-toggle="modal" data-bs-target="#cart"><i class="fa-solid fa-cart-shopping"></i> CART</button>` :
                              `<button onclick=getById(${element.id}) data-bs-toggle="modal" data-bs-target="#booking" class="btn btn-warning"><i class="fa-solid fa-calendar-days"></i> BOOKING</button>`;
 
         setTable.innerHTML += `<div class="col">
@@ -41,6 +41,8 @@ bookingTable.addEventListener("submit", function(e) {
     edit(urlTable,updatTable);
 });
 
+
+
 getAll(urlFood, getAllDish);
 
 function getAllDish(e) {
@@ -58,7 +60,7 @@ function getAllDish(e) {
                                         <img src="${element.img}" alt="...">
                                     </div>
                                     <div class="card-body">
-                                        <p class="d-flex justify-content-center align-items-center mb-1"><b>${element.price}</b></p>
+                                        <p class="d-flex justify-content-center align-items-center mb-1"><b>$${element.price}</b></p>
                                         <div class="d-flex justify-content-center align-items-center gap-1">
                                             <span><i class="fa-solid fa-minus"></i></span>
                                             <button>0</button>

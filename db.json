@@ -27,8 +27,8 @@
     {
       "id": "5",
       "nameCustomer": "",
-      "quantity": null,
-      "status": false
+      "quantity": "",
+      "status": true
     },
     {
       "id": "6",
@@ -39,8 +39,8 @@
     {
       "id": "7",
       "nameCustomer": "",
-      "quantity": null,
-      "status": false
+      "quantity": "",
+      "status": true
     },
     {
       "id": "8",
@@ -54,49 +54,49 @@
       "id": 1,
       "name": "Hamberger",
       "img": "../img/hamburger.png",
-      "price": "$39"
+      "price": "39"
     },
     {
       "id": 2,
       "name": "Beefsteak",
       "img": "../img/meat.png",
-      "price": "$129"
+      "price": "129"
     },
     {
       "id": 3,
       "name": "Dismum",
       "img": "../img/dimsum.png",
-      "price": "$79"
+      "price": "79"
     },
     {
       "id": 4,
       "name": "chiken",
       "img": "../img/chicken-leg.png",
-      "price": "$119"
+      "price": "119"
     },
     {
       "id": 5,
       "name": "Pizza",
       "img": "../img/pizza.png",
-      "price": "$79"
+      "price": "79"
     },
     {
       "id": 6,
       "name": "Ramen",
       "img": "../img/ramen.png",
-      "price": "$39"
+      "price": "39"
     },
     {
-      "id" : 7,
-      "name" : "Salad",
-      "img" : "../img/salad.png",
-      "price" : "$39"
+      "id": 7,
+      "name": "Salad",
+      "img": "../img/salad.png",
+      "price": "39"
     },
     {
-      "id" : 8,
-      "name" : "Fried rice",
-      "img" : "../img/biryani.png",
-      "price" : "$79"
+      "id": 8,
+      "name": "Fried rice",
+      "img": "../img/biryani.png",
+      "price": "79"
     }
   ]
 }
