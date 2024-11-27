@@ -1,5 +1,7 @@
 const urlTable = "http://localhost:3000/table";
 const urlFood = "http://localhost:3000/foods";
+const urlOrder = "http://localhost:3000/orders";
+const urlAccounts = "http://localhost:3000/accounts";
 async function getAll(url, callback) {
   try{
       const response = await fetch(url);

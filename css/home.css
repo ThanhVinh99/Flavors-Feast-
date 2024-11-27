@@ -28,6 +28,30 @@ h6{
 .box{
     display: none;
 }
+.profile{
+    border-radius: 15%;
+    .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+    }
+    p{
+        text-align: center;
+    }
+    li{
+        width: 40px;
+        height: 40px;
+    }
+}
+.menu-profile {
+    width: 300px;
+     z-index: 10;
+}
 .admin {
     
     .left {
@@ -117,20 +141,32 @@ h6{
             }
         }
     }
-        table{
-            border-collapse: collapse;
-            border-bottom: 1px gray black;
-            width: 100%;
+    table{
+        border-collapse: collapse;
+        border-bottom: 1px gray black;
+        width: 100%;
+         
+        img{
+            width: 50px;
         }
-        table, td, th{
-            padding: 15px;
-            text-align: center;
-        }
-#cart {
-    img {
-        width: 50px;
     }
-}
+    table, td, th{
+        padding: 15px;
+        text-align: center;
+    }
+    .Avatar{
+        img{
+            width: 50%;
+            margin: auto;
+            padding: 10px;
+          }
+        form{
+            margin: 0;
+        }
+        
+
+    }
+
 /* tablet tro len  */
 @media screen and (min-width: 768px) {
    .admin {
@@ -148,6 +184,8 @@ h6{
     }
     .right {
         flex: 1;
+        height: 100vh;
+        overflow-y: auto;
     }
    }
 }

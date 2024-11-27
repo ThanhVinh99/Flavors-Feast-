@@ -3,19 +3,19 @@
     {
       "id": "1",
       "nameCustomer": "thanhvinh",
-      "quantity": "1",
+      "quantity": "3",
       "status": true
     },
     {
       "id": "2",
-      "nameCustomer": "",
-      "quantity": null,
+      "nameCustomer": "thanhvinh",
+      "quantity": "4",
       "status": true
     },
     {
       "id": "3",
-      "nameCustomer": "sdvgsg",
-      "quantity": "3",
+      "nameCustomer": "",
+      "quantity": "",
       "status": true
     },
     {
@@ -28,19 +28,19 @@
       "id": "5",
       "nameCustomer": "",
       "quantity": "",
-      "status": true
+      "status": false
     },
     {
       "id": "6",
       "nameCustomer": "",
-      "quantity": null,
-      "status": true
+      "quantity": "",
+      "status": false
     },
     {
       "id": "7",
       "nameCustomer": "",
       "quantity": "",
-      "status": true
+      "status": false
     },
     {
       "id": "8",
@@ -51,52 +51,116 @@
   ],
   "foods": [
     {
-      "id": 1,
-      "name": "Hamberger",
-      "img": "../img/hamburger.png",
-      "price": "39"
-    },
-    {
-      "id": 2,
-      "name": "Beefsteak",
-      "img": "../img/meat.png",
-      "price": "129"
-    },
-    {
-      "id": 3,
-      "name": "Dismum",
-      "img": "../img/dimsum.png",
-      "price": "79"
-    },
-    {
-      "id": 4,
-      "name": "chiken",
-      "img": "../img/chicken-leg.png",
-      "price": "119"
-    },
-    {
-      "id": 5,
+      "id": "5",
       "name": "Pizza",
       "img": "../img/pizza.png",
       "price": "79"
     },
     {
-      "id": 6,
-      "name": "Ramen",
-      "img": "../img/ramen.png",
-      "price": "39"
-    },
-    {
-      "id": 7,
+      "id": "7",
       "name": "Salad",
       "img": "../img/salad.png",
       "price": "39"
     },
     {
-      "id": 8,
-      "name": "Fried rice",
-      "img": "../img/biryani.png",
-      "price": "79"
+      "id": "1",
+      "name": "khoai tay 1",
+      "price": "13",
+      "img": "http://res.cloudinary.com/dfksqzury/image/upload/v1732503458/g8mjgbfrrdawfxvm6q9l.png"
+    },
+    {
+      "id": "9",
+      "name": "ga",
+      "price": "1",
+      "img": "http://res.cloudinary.com/dfksqzury/image/upload/v1732499755/s1t5nxzhoswsxtefae8n.png"
+    },
+    {
+      "id": "2",
+      "name": "khoai tay",
+      "price": "34",
+      "img": "http://res.cloudinary.com/dfksqzury/image/upload/v1732504348/hleqvnlvhnasmjlgrxut.png"
+    },
+    {
+      "id": "3",
+      "name": "khoai tay",
+      "price": "111",
+      "img": "http://res.cloudinary.com/dfksqzury/image/upload/v1732505105/omlw1chmbzkwhaskqmtb.png"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "items": [
+        {
+          "idFood": "1",
+          "quanity": 2
+        },
+        {
+          "idFood": "3",
+          "quanity": 1
+        },
+        {
+          "idFood": "5",
+          "quanity": 1
+        },
+        {
+          "idFood": "9",
+          "quanity": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "items": [
+        {
+          "idFood": "1",
+          "quanity": 1
+        },
+        {
+          "idFood": "2",
+          "quanity": 2
+        },
+        {
+          "idFood": "3",
+          "quanity": 2
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "items": [
+        {
+          "idFood": "3",
+          "quanity": 2
+        },
+        {
+          "idFood": "5",
+          "quanity": 2
+        },
+        {
+          "idFood": "7",
+          "quanity": 2
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "id": "d555",
+      "name": "Nguyễn Thanh Vĩnh",
+      "email": "vinh1999.@gmail.com",
+      "pass": "123"
+    },
+    {
+      "id": "bc89",
+      "name": "admin",
+      "email": "vinh@mail.com",
+      "pass": "123",
+      "lastname": "nguyen thanh",
+      "phone": "0123456789",
+      "date": "2024-11-23",
+      "address": "binh an 1",
+      "img": "http://res.cloudinary.com/dfksqzury/image/upload/v1732680861/vlbyphquoshi9odemjvg.png"
     }
   ]
 }
